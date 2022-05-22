@@ -1,18 +1,3 @@
-/*let pom = document.body.querySelector('#som_tecla_pom');
-let clap = document.body.querySelector('#som_tecla_clap');
-let tim = document.body.querySelector('#som_tecla_tim');
-let puff = document.body.querySelector('#som_tecla_puff');
-let splash=document.body.querySelector('#som_tecla_splash');
-let toim = document.body.querySelector('#som_tecla_toim');
-let psh = document.body.querySelector('#som_tecla_psh');
-let tic = document.body.querySelector('#som_tecla_tic');
-let tom = document.body.querySelector('#som_tecla_tom');
-
-
-function tocar(som){
-   som.play();
-}*/
-
 function tocaSom(id){
    let audios = document.querySelectorAll('audio');
    for (let index = 0; index < audios.length; index++) {
